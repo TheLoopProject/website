@@ -14,6 +14,6 @@ await navigateTo('https://discord.com/invite/Ad2jRNsSJd', { external: true })
 useSeoMeta({
   title: 'Discord - the Loop Project',
   description: "The Loop Project discord server.",
-  ogImage: 'public/favicon.ico',
+  ogImage: "img/icon512.png",
 })
 </script>

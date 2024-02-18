@@ -17,6 +17,8 @@
 
 <style>
 
+@import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900);
+
 :root {
   font-family: Inter, Helvetica, sans-serif;
   --brand-colour: #ffe6ef;

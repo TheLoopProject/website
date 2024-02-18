@@ -11,7 +11,7 @@
 
             <span class="text-5xl font-bold"> Sprint </span>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="assets/icons/sprint.png">
+            <img class="h-12 bg-white rounded-xl p-1" src="img/icons/sprint.png">
 
         </span>
 
@@ -42,7 +42,7 @@
 
             <span class="text-5xl font-bold"> Keys </span>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="assets/icons/keys.png">
+            <img class="h-12 bg-white rounded-xl p-1" src="img/icons/keys.png">
 
         </span>
 
@@ -66,6 +66,6 @@
 useSeoMeta({
   title: 'Projects - the Loop Project',
   description: "Projects created by the Loop Project.",
-  ogImage: 'public/favicon.ico',
+  ogImage: "img/icon512.png",
 })
 </script>

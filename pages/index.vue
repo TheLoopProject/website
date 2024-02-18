@@ -46,6 +46,6 @@
 useSeoMeta({
   title: 'Home - the Loop Project',
   description: "We are an organization dedicated to making Minecraft modding more accessible.",
-  ogImage: 'public/favicon.ico',
+  ogImage: "img/icon512.png",
 })
 </script>
