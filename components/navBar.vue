@@ -4,7 +4,7 @@
 
         <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://loopmc.org">
         
-            <img class="h-10" src="img/icon512.png">
+            <img class="h-10" src="~/assets/img/icon512.png">
 
             the Loop Project
 
@@ -28,7 +28,7 @@
 
             <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://loopmc.org">
         
-                <img class="h-10" src="img/icon512.png">
+                <img class="h-10" src="~/assets/img/icon512.png">
 
                 the Loop Project
 
