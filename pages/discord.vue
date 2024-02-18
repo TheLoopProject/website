@@ -13,8 +13,6 @@ await navigateTo('https://discord.com/invite/Ad2jRNsSJd', { external: true })
 
 useSeoMeta({
   title: 'Discord - the Loop Project',
-  title: 'Discord - the Loop Project',
-  description: "The Loop Project discord server.",
   description: "The Loop Project discord server.",
   ogImage: 'assets/icon512.png',
 })

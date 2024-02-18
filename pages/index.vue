@@ -44,9 +44,7 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  ogtitle: 'Home - the Loop Project',
   title: 'Home - the Loop Project',
-  ogdescription: "We are an organization dedicated to making Minecraft modding more accessible.",
   description: "We are an organization dedicated to making Minecraft modding more accessible.",
   ogImage: 'assets/icon512.png',
 })

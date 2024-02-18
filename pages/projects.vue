@@ -64,9 +64,7 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  ogtitle: 'Projects - the Loop Project',
   title: 'Projects - the Loop Project',
-  ogdescription: "Projects created by the Loop Project.",
   description: "Projects created by the Loop Project.",
   ogImage: 'assets/icon512.png',
 })
