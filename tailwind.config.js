@@ -2,11 +2,7 @@
 export default {
   content: [],
   theme: {
-    extend: {
-      fontFamily: {
-        'sans': ['"Inter"', ...defaultTheme.fontFamily.sans],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
