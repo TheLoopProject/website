@@ -1,6 +1,6 @@
 <template>
 
-    <div v-if="!isBrowseMenuOpen" class="font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-row gap-12 items-center text-base justify-between sm:justify-normal pr-5">
+    <div v-if="!isBrowseMenuOpen" class="select-none font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-row gap-12 items-center text-base justify-between sm:justify-normal pr-5">
 
         <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://loopmc.org">
         
@@ -22,7 +22,7 @@
 
     </div>
 
-    <div v-if="isBrowseMenuOpen" class="font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-col gap-2.5 items-center text-base justify-between sm:justify-normal">
+    <div v-if="isBrowseMenuOpen" class="select-none font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-col gap-2.5 items-center text-base justify-between sm:justify-normal">
 
         <div class="w-full rounded-3xl flex flex-row gap-12 items-center text-base justify-between sm:justify-normal pr-2.5">
 
@@ -58,7 +58,6 @@ isBrowseMenuOpen.value = false
 
 function toggleDropdown() {
   isBrowseMenuOpen.value = !isBrowseMenuOpen.value
-  console.log("hi")
 
  /* if (isBrowseMenuOpen.value) {
     isMobileMenuOpen.value = false
