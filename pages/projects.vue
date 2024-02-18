@@ -11,7 +11,7 @@
 
             <span class="text-5xl font-bold"> Sprint </span>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="~/img/icons/keys.png">
+            <img class="h-12 bg-white rounded-xl p-1" src="~/assets/img/icons/sprint.png">
 
         </span>
 
@@ -42,7 +42,7 @@
 
             <span class="text-5xl font-bold"> Keys </span>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="~/img/icons/keys.png">
+            <img class="h-12 bg-white rounded-xl p-1" src="~/assets/img/icons/keys.png">
 
         </span>
 
