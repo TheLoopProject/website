@@ -66,6 +66,6 @@
 useSeoMeta({
   title: 'Projects - the Loop Project',
   description: "Projects created by the Loop Project.",
-  ogImage: "img/icon512.png",
+  ogImage: "~/assets/img/icon512.png",
 })
 </script>
