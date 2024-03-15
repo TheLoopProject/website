@@ -38,6 +38,8 @@
 
         <NuxtLink to="https://wagyourtail.xyz/"> <user> Wagyourtail <LucideLock /> </user> </NuxtLink>
 
+        <NuxtLink to="https://rowan.pages.dev/"> <user> rowan <LucideTreeDeciduous /> </user> </NuxtLink>
+
     </div>
 
 </template>
