@@ -40,6 +40,8 @@
 
         <NuxtLink to="https://rowan.pages.dev/"> <user> Rowan <LucideTreeDeciduous /> </user> </NuxtLink>
 
+        <NuxtLink to="https://github.com/moehreag/"> <user> moehreag <LucideBird /> </user> </NuxtLink>
+
     </div>
 
 </template>
