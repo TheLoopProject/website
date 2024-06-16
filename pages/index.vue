@@ -42,6 +42,8 @@
 
         <NuxtLink to="https://github.com/moehreag/"> <user> moehreag <LucideBird /> </user> </NuxtLink>
 
+        <NuxtLink to="https://github.com/KTrain5169"> <user> KTrain5169 <LucideMessage-Circle-Question /> </user> </NuxtLink>
+
     </div>
 
 </template>
