@@ -21,18 +21,12 @@
 
         </div>
 
-        <div class="text-2xl">
-
-            If you want to contribute, check out
-            the <a class="underline" href="https://github.com/worldwidepixel/sprint-ornithe/">Github</a> repository.
-
-        </div>
-
     </projectContainer>
 
     <div class="flex flex-row gap-4 flex-wrap">
 
         <NuxtLink to="https://modrinth.com/project/sprint/"> <user> Modrinth <LucideBox /> </user> </NuxtLink>
+        <NuxtLink to="https://github.com/worldwidepixel/sprint-ornithe/"> <user> GitHub <LucideGithub /> </user> </NuxtLink>
 
     </div>
 
@@ -57,6 +51,7 @@
     <div class="flex flex-row gap-4 flex-wrap">
 
         <NuxtLink to="https://modrinth.com/project/loopkeys/"> <user> Modrinth <LucideBox /> </user> </NuxtLink>
+        <NuxtLink to="https://github.com/TheLoopProject/loop-keys"> <user> GitHub <LucideGithub /> </user> </NuxtLink>
 
     </div>
 
