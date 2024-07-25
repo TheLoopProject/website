@@ -7,7 +7,7 @@
 
     <div class="text-2xl">
 
-        We are an organization dedicated to making Minecraft modding more accessible.
+        We are an organization dedicated to improving the legacy Minecraft experience.
 
     </div>
 
