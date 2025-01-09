@@ -1,0 +1,107 @@
+@import url(https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/inter.min.css);
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|inter:100,200,300,400,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+
+@layer base {
+	:root {
+		--brand-colour: #ff3424;
+		--brand-background: #16181c;
+		--brand-background-secondary: #262a31;
+		--brand-background-blue: #041d30;
+		--brand-background-transparent: rgba(29, 28, 32, 0.749);
+		--brand-scrollbar: #041d30;
+		--brand-scrollbar-alt: #d7c8ff;
+		--brand-border: #21292c;
+		--brand-border-alt: #d7c8ff;
+		--brand-text: #ffffff;
+		--brand-text-secondary: #e1e1e1;
+	}
+}
+
+* {
+	@apply border-brand-border;
+}
+
+.bgimg {
+	mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+	-webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.cardbg {
+	mask-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 75%);
+	-webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 75%);
+}
+
+#gradient-canvas {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	--gradient-color-1: #ff0a50;
+	--gradient-color-2: #f5132a;
+	--gradient-color-3: #ff3874;
+	--gradient-color-4: #ff5f87;
+}
+
+.brand-gradient {
+	background: linear-gradient(90deg, #baa5ff 0%, #85b7f6 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.subtext_dark a {
+	color: rgb(49, 49, 52) !important;
+}
+
+.md h1 {
+	@apply my-6 text-3xl font-bold;
+}
+.md h2 {
+	@apply my-4 text-2xl font-bold;
+}
+.md h3 {
+	@apply mb-4 text-xl font-bold;
+}
+.md img {
+	@apply my-2 inline-block h-auto w-fit max-w-full rounded-3xl shadow-lg;
+}
+.md p {
+	@apply my-4;
+}
+.md strong {
+	@apply font-bold;
+}
+.md li {
+	@apply mb-4 ml-8 list-disc;
+}
+
+.centre {
+	@apply flex flex-col items-center justify-center gap-2;
+}
+
+::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.lucide {
+	@apply h-5 w-5;
+}
+
+.button {
+	@apply rounded-xl bg-brand-colour px-4 py-3 text-lg font-bold transition active:scale-95;
+}
+
+.circlebutton {
+	@apply flex flex-col items-center justify-center rounded-full p-1 hover:bg-brand-background-secondary;
+}
+
+* {
+	scrollbar-color: #28cbd4 #041d30;
+}
+
+@tailwind utilities;

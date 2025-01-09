@@ -1,0 +1,36 @@
+---
+import LogoType from "../components/LogoType.astro";
+import Default from "../layouts/Default.astro";
+
+import { Bird, Box, Github, PlayCircle, Twitch } from "lucide-astro";
+---
+
+<script is:inline type="module" lang="ts">
+	import { Gradient } from "../Gradient.js";
+
+	const gradient = new Gradient();
+
+	gradient.initGradient("#gradient-canvas");
+</script>
+
+<Default title="Home">
+	<div class="flex h-full w-full flex-col items-center justify-center">
+		<div
+			class="flex h-full flex-col justify-center gap-2 rounded-3xl bg-brand-background-transparent shadow backdrop-blur sm:h-fit sm:bg-brand-background">
+			<div class="flex w-full flex-col gap-6 p-6 sm:p-12">
+				<LogoType className="h-16 w-fit" />
+				<span class="flex flex-row items-center gap-4 text-2xl"> Heya, Loop fans! </span>
+				<div class="flex flex-col gap-1">
+					<span>It’s been a while since our last project. You probably miss us :P</span>
+					<span>We're currently winding down, and will be on hiatus for the foreseeable future.</span>
+					<span>
+						This isn't the end though- we plan to be back eventually. We might have a cool project in store,
+						so stay tuned!
+					</span>
+				</div>
+				<span class="text-sm text-brand-text-secondary">updated 2025-01-08</span>
+			</div>
+		</div>
+	</div>
+	<canvas class="brightness-50 saturate-200" id="gradient-canvas" data-transition-in></canvas>
+</Default>

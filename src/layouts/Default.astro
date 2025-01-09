@@ -1,0 +1,84 @@
+---
+import { Github, Youtube, Box, Bird } from "lucide-astro";
+import "../styles/global.css";
+let { title } = Astro.props;
+if (title === "" || title === undefined) {
+	title = "Loop";
+} else {
+	title = `Loop | ${title}`;
+}
+---
+
+<!doctype html>
+<html class="h-full bg-brand-background text-brand-text">
+	<head>
+		<title>{title}</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="title" content="Loop" />
+		<meta name="description" content="Loop is a small group that makes content for Minecraft." />
+		<meta name="keywords" content="minecraft,loop" />
+		<meta name="robots" content="index" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="language" content="English" />
+		<meta name="publisher" content="Loop" />
+		<meta name="author" content="Loop" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Loop" />
+		<meta property="og:url" content="https://loopmc.org" />
+		<meta property="og:image" content="https://loopmc.org/img/icon_512x.png" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="theme-color" content="#ff3424" />
+		<meta property="og:description" content="Loop is a small group that makes content for Minecraft." />
+	</head>
+	<body class="flex h-dvh flex-col">
+		<!--
+		<nav class="flex w-full flex-row justify-center">
+			<div class="flex w-full max-w-[80rem] flex-row items-center justify-center gap-4 p-6 sm:justify-between">
+				<div
+					class="grid w-full select-none grid-cols-2 flex-row items-center justify-center gap-x-12 gap-y-4 rounded-3xl bg-brand-background-transparent p-4 text-base font-bold shadow backdrop-blur sm:flex">
+					<span class="col-span-2">
+						<a class="block w-fit" href="#"></a>
+					</span>
+					<div class="hidden sm:block">
+						<Diamond />
+					</div>
+					<a href="/">Home</a>
+				</div>
+			</div>
+		</nav>
+		-->
+		<main class="mt-6 flex w-full flex-auto flex-row justify-center">
+			<div class="w-full max-w-[80rem] p-6 pt-0">
+				<slot />
+			</div>
+		</main>
+		<!--
+		<footer class="flex w-full flex-row justify-center border-t border-brand-border-alt bg-brand-background-blue">
+			<div class="w-full max-w-[80rem] px-6">
+				<div class="grid w-full grid-cols-1 sm:grid-cols-3">
+					<div class="flex flex-col justify-center gap-3 p-6">
+						<a class="flex w-fit flex-row items-center gap-4 text-xl hover:underline" href="/"> Loop </a>
+						<div class="flex flex-row gap-1">
+							<CircleButton to="https://github.com/theloopproject"><Github /></CircleButton>
+							<CircleButton to="https://bsky.app/profile/loopmc.org"><Bird /></CircleButton>
+							<CircleButton to="https://modrinth.com/organization/loop"><Box /></CircleButton>
+						</div>
+					</div>
+					<div class="flex flex-col gap-2 p-6">
+						<span class="font-bold">Interact</span>
+						<Link external={true} to="https://bsky.app/profile/loopmc.org"><Bird />Bluesky</Link>
+						<Link external={true} to="https://github.com/theloopproject"><Github />Github</Link>
+					</div>
+					<div class="flex flex-col gap-2 p-6">
+						<span class="font-bold">About</span>
+						<span>&copy; 2024 Loop</span>
+						<Link to="https://github.com/theloopproject/website">View source</Link>
+					</div>
+				</div>
+			</div>
+		</footer>
+		 -->
+	</body>
+</html>
