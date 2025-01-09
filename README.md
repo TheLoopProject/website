@@ -1,4 +1,5 @@
 # website
+
 The website for Loop.
 
-*Now in Nuxt!*
+_Now in Astro!_
